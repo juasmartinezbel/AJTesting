@@ -12,3 +12,5 @@ public class Pot {
 		System.out.println("Hay "+s+" flores en la casa.");
 	}
 }
+
+

@@ -9,3 +9,4 @@ privileged public aspect Owner {
   	  System.out.println(pot.moveFlowers());
     }
 }
+
