@@ -1,5 +1,6 @@
 package Test;
 
-public aspect Universe {
+public aspect Universe issingleton() {
 	public String uni="Universe!";
 }
+

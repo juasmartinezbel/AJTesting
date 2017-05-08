@@ -6,6 +6,7 @@ public class FathersAndSons {
 
 	public static void main(String[] args) {
 		Father myFather= new Father();
+		
 		int age=myFather.years;
 		String i_am=myFather.i_am();
 		String lastname=myFather.sayLastName();
