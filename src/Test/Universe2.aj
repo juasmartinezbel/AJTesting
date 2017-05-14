@@ -8,6 +8,8 @@ public aspect Universe2 {
 
 	before(): weSaidHello(){
 		System.out.print("Hello ");
+		//proceed();
+		//System.out.println("!");
 	}
 	
 	/*after() returning(String g): weSentHello(){

@@ -8,11 +8,11 @@ public class UniverseHello {
 
 	}
 	public static void sayUniverse(){
-		System.out.print("Universe! ");
+		System.out.print("Universe ");
 	}
 	
 	public static String sendUniverse(){
-		return "Universe! ";
+		return "World! ";
 	}
 
 }

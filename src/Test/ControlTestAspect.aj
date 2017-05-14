@@ -1,7 +1,7 @@
 package Test;
 import MainsAndMore.Flow;
 
-public aspect ControlTestAspect percflow(call(void Flow.method())) {
+public aspect ControlTestAspect percflow(call(void Flow.method())){
 
 	pointcut controlPointcut() : !within(ControlTestAspect);
 
